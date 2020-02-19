@@ -23,11 +23,11 @@ class Navbar extends Component {
        return(
            <nav>
                <ul>
-                   <Navitem item="Home" tolink="/react-portfolio/" activec={this.activeItem} />
-                   <Navitem item="About" tolink="/react-portfolio/about" activec={this.activeItem} />
-                   <Navitem item="Education" tolink="/react-portfolio/education" activec={this.activeItem} />
-                   <Navitem item="Skills" tolink="/react-portfolio/skills" activec={this.activeItem} />
-                   <Navitem item="Contact" tolink="/react-portfolio/contact" activec={this.activeItem} />
+                   <Navitem item="Home" tolink="/portfolio-freelancer/" activec={this.activeItem} />
+                   <Navitem item="About" tolink="/portfolio-freelancer/about" activec={this.activeItem} />
+                   <Navitem item="Education" tolink="/portfolio-freelancer/education" activec={this.activeItem} />
+                   <Navitem item="Skills" tolink="/portfolio-freelancer/skills" activec={this.activeItem} />
+                   <Navitem item="Contact" tolink="/portfolio-freelancer/contact" activec={this.activeItem} />
                </ul>
            </nav>
        )
