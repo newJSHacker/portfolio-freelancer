@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import Pages from './pages'
+import data from './data.json'
 
 function App(){
     
@@ -19,7 +20,7 @@ function App(){
         return <div />
     }
 
-    return <Pages user={user} />
+    return <Pages user={data} />
 }
 
 export default App
